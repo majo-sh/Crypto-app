@@ -21,14 +21,14 @@ La contraseña para todos es
 ## Desarrollo 
 
 Esta pagina fue creada con 
--React 
--Sass, 
--falso servidor alojado en Heroku Json-server
+- React 
+- Sass
+- falso servidor alojado en Heroku Json-server
 
 ## Dependencias
--react-router-dom
--axios
--universal-cookie
+- react-router-dom
+- axios
+- universal-cookie
 
 
 
