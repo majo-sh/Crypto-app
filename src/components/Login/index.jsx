@@ -4,7 +4,7 @@ import "./Login.scss"
 import Cookies from "universal-cookie";
 import {useNavigate} from "react-router-dom"
 
-const baseUrl = "https://majo-sh.github.io/json-server-fake-api/db.json"
+const baseUrl = "https://majo-sh.github.io/json-server-fake-api/db.json/usuarios"
 const cookies = new Cookies()
 
 export default function Login () {
