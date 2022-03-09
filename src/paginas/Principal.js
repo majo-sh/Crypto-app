@@ -11,12 +11,15 @@ import Table from "../components/Table";
 
 
 export default function Principal() {
+
     const [search, setSearch] = useState('')
-    
     const [coins, setCoins] = useState([])
-    
+
+    /**
+     * esta peticion trae las 100 primeras criptomonedas de la api se puede usar start and limit para definir la cantidad de datos
+     */ 
     const getData = async () => {
-        const res = await axios.get('https://api.coinlore.net/api/tickers/')
+        const res = await axios.get('https://api.coinlore.net/api/tickers/?start=0&limit=100')
         
         setCoins([res.data.data][0])
         

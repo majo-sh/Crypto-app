@@ -1,6 +1,16 @@
+
+/**
+ * 
+ * @param {*} param0 recive coin y key del componente index de table
+ * @returns las columnas de la tabla con la informacion de la api
+ */
 export default function Columns({coin, key}) {
 
-
+    /**
+     * 
+     * @param {number} number  recibe un numero para darle formato
+     * @returns el numero recivido con el formato 
+     */
     function formatNumber(number){
         return new Intl.NumberFormat( 'en-US',  {
         

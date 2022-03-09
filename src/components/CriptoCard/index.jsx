@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 import Cookies from 'universal-cookie';
 import './Criptocard.scss';
 
-
-
 const cookies = new Cookies()
+
+
 
 export default function CriptoCard () {
     const [globals, setGolbals] = useState([])

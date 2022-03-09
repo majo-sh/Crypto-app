@@ -4,7 +4,12 @@ import './Table.scss'
 
 const titles = ['Rank', 'Nombre', 'Simbolo', 'Precio en dolares', 'porsentaje de cambio en 24 horas']
 
-
+/**
+ * 
+ * @param {array} coins recibidas de el archivo Principal.js
+ * @param {string} search recibidas de el archivo Principal.js
+ * @returns el render de la tabla que consume la api de criptomonedas
+ */
 export default function Table ({coins,search}) {
 
     const filerCoins = coins.filter((coin)=> 
