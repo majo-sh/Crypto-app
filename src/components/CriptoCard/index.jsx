@@ -33,7 +33,7 @@ export default function CriptoCard () {
         <section className ="criptocard">
             <h2>Bienvenido {user}</h2>
             <h3>Informacion general</h3>
-            <p>mercados activos</p>
+            <p>Mercados activos</p>
             {
                 globals.map((global)=> (
                     <span>{global.active_markets}</span>
